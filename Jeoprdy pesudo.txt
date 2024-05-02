@@ -40,3 +40,5 @@ Class 3
 		ELSE IF 3
 			PRINT out question 3.3
 		ELSE error rerun input
+
+ADD all points at the end
