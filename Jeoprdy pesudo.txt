@@ -1,0 +1,42 @@
+jeopard game
+
+Main class
+	PRINT welcome message
+	USER INPUT new game/exit
+		If new game call class game
+		ELSE exit program
+
+Game class
+	PRINT out choices
+	USER INPUT 1,2,3
+		If 1 call class 1
+		ELSE IF 2 call class 2
+		ELSE IF 3 call class 3
+		ELSE Error rerun questions
+Class 1
+	USER INPUT option 1 2 3
+		IF 1
+			PRINT out question 1.1
+		ELSE IF 2
+			PRINT out quesiton 1.2
+		ELSE IF 3
+			PRINT out question 1.3
+		ELSE error rerun input
+Class 2
+	USER INPUT option 1 2 3
+		IF 1
+			PRINT out question 2.1
+		ELSE IF 2
+			PRINT out quesiton 2.2
+		ELSE IF 3
+			PRINT out question 2.3
+		ELSE error rerun input
+Class 3
+	USER INPUT option 1 2 3
+		IF 1
+			PRINT out question 3.1
+		ELSE IF 2
+			PRINT out quesiton 3.2
+		ELSE IF 3
+			PRINT out question 3.3
+		ELSE error rerun input
