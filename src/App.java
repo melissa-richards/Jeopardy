@@ -7,8 +7,6 @@ public class App {
             Column_1 O1 = new Column_1();
             O1.C1();
         }
-        //TEMP COMMENT OUT
-        /*
         else if (Column == 2){
             Column_2 O2 = new Column_2();
             O2.C2();
@@ -17,6 +15,6 @@ public class App {
             Column_3 O3 = new Column_3();
             O3.C3();
         
-        }*/
+        }
     }
 }
