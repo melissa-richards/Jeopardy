@@ -9,7 +9,7 @@ public class Column_1 {
         int choice = Integer.parseInt(JOptionPane.showInputDialog("Pick a quesiton 1, 2, or 3"));
         if (choice == 1) {
             String question_1 = JOptionPane.showInputDialog("Name a police officers favourite snack");
-            if (question_1.equalsIgnoreCase("donut")) {
+            if (question_1.equalsIgnoreCase("donuts")) {
                 JOptionPane.showMessageDialog(null, "You are correct");
             } 
             else {
