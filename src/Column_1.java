@@ -26,7 +26,7 @@ public class Column_1 {
             }
         } 
         else if (choice == 3) {
-            String question_3 = JOptionPane.showInputDialog("Name the first coca-cola bottle color");
+            String question_3 = JOptionPane.showInputDialog("Name the first coca-cola bottle color.");
             if (question_3.equalsIgnoreCase("green")) {
                 JOptionPane.showMessageDialog(null, "You are correct");
             } 
