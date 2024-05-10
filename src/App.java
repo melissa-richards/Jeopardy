@@ -23,8 +23,5 @@ public class App {
                 }
             }
         }
-        else {
-            JOptionPane.showMessageDialog(null, "ERROR");
-        }
     }
 }
