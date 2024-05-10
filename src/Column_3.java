@@ -33,7 +33,7 @@ public class Column_3 {
             } 
             else if ((choice.equals("3"))||(choice.equals("three"))) {
                 String question_3 = JOptionPane.showInputDialog("Triskaidekaphobia is the fear of this number");
-                if (question_3.equalsIgnoreCase("13")||question_3.equalsIgnoreCase("thirteen")) {
+                if (question_3.equalsIgnoreCase("13")||question_3.equalsIgnoreCase("thirteen")||question_3.equalsIgnoreCase("number thirteen")||question_3.equalsIgnoreCase("number 13")) {
                     JOptionPane.showMessageDialog(null, "You are correct");
                     exit = true;
                 } 
